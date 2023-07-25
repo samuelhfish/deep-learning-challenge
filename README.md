@@ -10,7 +10,8 @@ The goal of this exercise is to create a tool that will help the Alphabet Soup F
 
 The information included:
 
-```EIN and NAME—Identification columns
+```
+EIN and NAME—Identification columns
 APPLICATION_TYPE—Alphabet Soup application type
 AFFILIATION—Affiliated sector of industry
 CLASSIFICATION—Government organization classification
@@ -20,14 +21,15 @@ STATUS—Active status
 INCOME_AMT—Income classification
 SPECIAL_CONSIDERATIONS—Special considerations for application
 ASK_AMT—Funding amount requested
-IS_SUCCESSFUL—Was the money used effectively```
+IS_SUCCESSFUL—Was the money used effectively
+```
 
 Using neural networks, we wanted to use some or all of the first 10 data columns to predict the final column, whether or not the venture was successful.
 
 
 ## RESULTS
 
-###Data Prepoccessing
+### Data Prepoccessing
 
 To increase the efficacy of the model we wanted to get rid of unnessarry variables like the EIN number and the name of the ventue. We also wanted to group excessive variables in the "classification" and "type" columns that only appeared sporadically into an "other" category to hopefully increase the efficacy of our models. Our target variable was the "IS_SUCCESSFUL" column while the remaining columns would be the "features" in our model.
 
