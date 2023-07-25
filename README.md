@@ -33,9 +33,7 @@ Using neural networks, we wanted to use some or all of the first 10 data columns
 
 To increase the efficacy of the model we wanted to get rid of unnessarry variables like the EIN number and the name of the ventue. We also wanted to group excessive variables in the "classification" and "type" columns that only appeared sporadically into an "other" category to hopefully increase the efficacy of our models. Our target variable was the "IS_SUCCESSFUL" column while the remaining columns would be the "features" in our model.
 
-```
-s = "Python syntax highlighting"
-print s
+```python
 
 # Drop the non-beneficial ID columns, 'EIN' and 'NAME'.
 application_df.drop(columns=["EIN","NAME"], inplace=True)
@@ -104,9 +102,7 @@ X_test_scaled = X_scaler.transform(X_test)
 
 After preparing and scaling our data we first started with a model with 2 hidden layers and one ouput layer with the hidden layers having 80 and 30 neurons respectively and the output having 2 for succesful or unsucceful.
 
-```
-s = "Python syntax highlighting"
-print s
+```python
 
 # Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
 number_input_features = len(X_train[0])
