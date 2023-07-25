@@ -320,6 +320,7 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 Loss: 0.5528539419174194, Accuracy: 0.7314285635948181
 ```
 
+### SUMMARY
 The best model from  kerastuner method was able to achieve a 73% accuracy rate and 55% loss which is the best we have seen yet. The top models all used the hyberbolic tangent functions and three to 4 hidden layers.
 
 To tweak the model we would probably again use the tanh activation and potentially drop more columns to see if that could deliver higher accuracy as that achieved higher accuracy in the 2nd optimization notebook. Similarly, we could tweak the cutoff points for which we add categories to "other".
