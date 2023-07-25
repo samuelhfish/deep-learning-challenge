@@ -4,6 +4,9 @@ Deep learning exercise using machine learning and neural networks.
 
 All code exists in the jupyter notebooks in the "notebooks" folder. All HDF5 files are in the "h5_files" folder.
 
+Google colab notebooks were used for this assignment and are accessible here:
+https://drive.google.com/drive/folders/1lpEeT7assB-A-LTnWod1GNRYHjdO7wZO?usp=sharing
+
 ## OVERVIEW
 
 The goal of this exercise is to create a tool that will help the Alphabet Soup Foundation select applicants for funding with the best chance of sucess in their ventures. We received a CSV with more than 34000 organizations that Alphabet Soup funded over the years.
@@ -316,3 +319,7 @@ print(f"Loss: {model_loss}, Accuracy: {model_accuracy}")
 268/268 - 1s - loss: 0.5529 - accuracy: 0.7314 - 901ms/epoch - 3ms/step
 Loss: 0.5528539419174194, Accuracy: 0.7314285635948181
 ```
+
+The best model from  kerastuner method was able to achieve a 73% accuracy rate and 55% loss which is the best we have seen yet. The top models all used the hyberbolic tangent functions and three to 4 hidden layers.
+
+To tweak the model we would probably again use the tanh activation and potentially drop more columns to see if that could deliver higher accuracy as that achieved higher accuracy in the 2nd optimization notebook. Similarly, we could tweak the cutoff points for which we add categories to "other".
