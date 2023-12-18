@@ -1,5 +1,5 @@
-# deep-learning-challenge
-Deep learning exercise using machine learning and neural networks.
+# deep-learning-demo
+Deep learning exercise using machine learning, neural networks, TensorFLow and Keras.
 
 
 All code exists in the jupyter notebooks in the "notebooks" folder. All HDF5 files are in the "h5_files" folder.
