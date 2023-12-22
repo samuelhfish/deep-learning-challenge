@@ -4,7 +4,7 @@ Deep learning exercise using machine learning, neural networks, TensorFLow and K
 
 All code exists in the jupyter notebooks in the "notebooks" folder. All HDF5 files are in the "h5_files" folder.
 
-Google Colab notebooks were used for this assignment and are accessible here:
+Google Colab notebooks were used for this project and are accessible here:
 https://drive.google.com/drive/folders/1lpEeT7assB-A-LTnWod1GNRYHjdO7wZO?usp=sharing
 
 ## OVERVIEW
